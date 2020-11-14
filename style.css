@@ -32,7 +32,41 @@ body{
 .instagram-phone img{
     height: 50rem;
 }
+
+.instagram-continue{
+    display: flex;
+    align-items: center;/*horizontal*/
+    justify-content: space-around;/*vertical*/
+    flex-direction: column;
+    width: 50%;
+    min-height: 34rem;
+}
+.group {
+    display: flex;
+    justify-content: baseline;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    width: 100%;
+    padding: 1.3rem 0;
+    border: 1px solid lightgrey;
+}
+/*esse elemento abaixo pega a herança dos filhos daquele elemento no caso os elementos filhos
+No caso são 3 container e quando coloco 1,2 ou 3 especifico qual filho daquele pai vou editar*/
+.group:nth-child(1) {
+    min-height: 19rem;
+}
+.instagram-logo{
+    height: 3rem;
+}
+
+.profile-photo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    overflow: hidden;/*usado para não exceder a img pra fora da div fica como escondido*/
+}
 .profile-photo img{
-    width: 10rem;
-    height: 12rem;
+    height: 6rem;
 }
