@@ -88,6 +88,9 @@ No caso são 3 container e quando coloco 1,2 ou 3 especifico qual filho daquele 
 .not-account{
     color: rgb(160, 160, 160);
 }
+.notaccount{
+    margin-top: 2px;
+}
 .link-blue{
     color: #0095f6;
 }
